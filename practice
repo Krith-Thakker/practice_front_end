@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <img id="logo" src="https://www.freepnglogos.com/uploads/netflix-logo-drawing-png-19.png">
+            <button id="language">Englsih</button>
+            <button id="login">LOGIN</button>
+        </div>
+        <div id="head">
+        <h1 >
+            Unlimited movies, TV shows and more
+        </h1>
+        </div>
+        <div id="para1">
+        <p>
+            Watch anywhere. Cancel anytime.
+            <br>
+            </p>
+            </div>
+            <div id="para2">
+                <br>
+          <p> Ready to watch? Enter your email to create or restart your membership.</p>
+       
+        </div>
+        <button id="btn_start">Get Started</button>
+    </div>
+    
+</body>
+</html>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height:100%;
+        width:100%;
+    }
+    #container{
+        height:100%;
+        width:100%;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.hotukdeals.com/threads/thread_large/default/3175420_1.jpg);
+    
+    }
+    #navbar{
+        height:auto;
+        width:100%;
+        
+     
+    }
+    #logo{
+        height:60px;
+        width:200px;
+        margin:20px 0px 0px 150px;
+        background: transparent;
+        
+    }
+    #language{
+        height: 40px;
+        width:120px;
+        border-radius:8px;
+        background: transparent;
+        border:solid 1px #A6A2A2;
+        color:white;
+        font-family: sans-serif;
+        font-size: larger;
+        margin-left:650px;
+        margin-bottom: 100px;
+    }
+    #login{
+        background-color: #E50914;
+        height: 40px;
+        width:120px;
+        color:white;
+        font-family: sans-serif;
+        font-size: larger;
+        border-radius: 5px;
+        margin-left:80px;
+        margin-top:10px;
+    }
+    #container2{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #head{
+        padding-top:60px;
+        padding-left:80px;
+        padding-right:80px;
+     
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        color: white;
+        font-family: sans-serif;
+        font-size:35px ;
+    }
+    
+    #para1{
+        margin-top: 50px;
+        
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #para2{
+        margin-top:50px;
+       
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #btn_start{
+        margin-top:60px;
+        margin-left:640px;
+        height:70px;
+        width:200px;
+        border-radius: 5px;
+        color:white;
+        background-color: #E50914;
+        font-family: sans-serif;
+        font-size: larger;
+        font-weight:bolder;
+    
+    }
+    
+</style>
